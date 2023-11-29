@@ -2,72 +2,127 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: "Lato", sans-serif;
-}
-
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-#main {
-  transition: margin-left .5s;
-  padding: 16px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-</style>
+<link href="style.css" rel="stylesheet">
 </head>
 <body>
-
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+  <a class="item-a" href="#home">HOME</a>
+  <a class="item-b" href="#about">ABOUT</a>
+  <a class="item-c" href="#services">SERVICES</a>
+  <a class="item-d" href="#projects">PROJECTS</a>
+  <a class="item-e" href="#contact">CONTACT</a>
 </div>
 
 <div id="main">
-  <h2>Sidenav Push Example</h2>
-  <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-</div>
-
+    <div class="grid-container">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="menu">&#9776; Menu</span>
+    <img src="dplogo2.jpeg" class="item-f" alt="logo">
+    <img src="homepic3.jpeg" class="item-g">
+    <div class="item-h" id="home">
+        <h1 class="header">DEVONPORT PAINTERS</h1>
+        <h2 class="paintingservices">RESIDENTIAL | COMMERCIAL | INDUSTRIAL</h2>
+        <h2 class="paintingservices">PAINTING & INSPECTION SERVICES</h2>
+        <h3 class="call">Call Us Today For A FREE QUOTE</h3>
+        <h3 class="call">0210503894</h3>
+        <h4 class="slogan">On time. On budget. High quality.</h4>
+    </div>
+    <div class="item-i" id="about">
+        <h2 class="about-header">ABOUT</h2>
+        <p class="about">Devonport Painters has over <strong>20 years</strong> extensive <strong>residential, commercial</strong> and <strong>industrial</strong> painting experience with a wide variety of specifications, ITPs, standards, coatings and linings.</p>
+    </div> 
+    <h2 class="item-j" id="services">RESIDENTIAL | COMMERCIAL | INDUSTRIAL - PAINTING & INSPECTION SERVICES</h2>
+    <div class="services-section">
+        <div class="residential-section">
+                <div class="residential-flip-card">
+                    <div class="residential-flip-card-inner">
+                        <div class="residential-flip-card-front">
+            <img class="residential" src="residential.png" alt="House icon">
+            </div>
+            <div class="residential-flip-card-back">
+                <img class="residential-photo" src="residential-photo.JPG" alt="House roof being painted">
+            </div>
+            </div>
+            </div>
+            <p class="residential-paragraph">All of your interior and exterior painting needs from bathroom to deck, we have your house covered.</p>
+            </div>
+            <div class="commercial-section">
+                <div class="commercial-flip-card">
+                    <div class="commercial-flip-card-inner">
+                        <div class="commercial-flip-card-front">
+            <img class="commercial" src="commercial.png" alt="Building icon">
+            </div>
+            <div class="commercial-flip-card-back">
+                <img class="commercial-photo" src="commercial-photo.jpeg" alt="carpark column that has been freshly painted">
+            </div>
+            </div>
+            </div>
+            <p class="commercial-paragraph">We have got all of your commercial painting AND inspection requirements sorted.</p>
+            </div>
+            <div class="industrial-section">
+                <div class="industrial-flip-card">
+                    <div class="industrial-flip-card-inner">
+                        <div class="industrial-flip-card-front">
+            <img class="industrial" src="industrial.png" alt="Ship icon">
+            </div>
+            <div class="industrial-flip-card-back">
+                <img class="industrial-photo" src="industrial-photo.jpeg" alt="front exterior of a ship">
+            </div>
+            </div>
+            </div>
+            <p class="industrial-paragraph">Tanks, pipes, vessels . . . anything industrial, we can paint it, we can inspect it!</p>
+            </div>
+            </div>
+            <div class="item-k">
+                <h2 class="past-projects" id="projects">Past Projects</h2>
+                <img src="tank2.jpeg" class="tank" alt="tank interior">
+                <img src="redyellowpipes3.jpeg" class="mechanical-interior" alt="mechanical interior">
+                <img src="shipside.jpeg" class="shipside" alt="The side of a ship">
+                <img src="carpark3.jpg" class="carpark" alt="carpark">
+                <img src="carpark2.jpeg" class="carpark-side" alt="carpark from the side">
+                <p class="nzicc-paragraph"><strong>New Zealand International Conference Centre (NZICC)</strong> - Industrial coatings and QA used on the NZICC carpark.</p>
+                <img src="tankoutside.jpeg" class="nzrefinery" alt="oil tank">
+                <p class="nzrefinery-paragraph"><strong>New Zealand Refinery</strong> - Painting and inspecting coatings of oil tanks/pressure vessels.</p>
+                <img src="shipfront.jpg" class="dockyard" alt="ship in a dock">
+                <p class="dockyard-paragraph"><strong>Devonport Dockyard</strong> - Painting a marine vessel using industrial coatings.</p>
+            </div>
+                <h2 class="dedication">OUR DEDICATION TO YOU</h2>
+                <p class="dedication-paragraph-1">We offer:<p>
+                    <ul class="list">
+                        <li>the best <strong>quality</strong> paints;</li>
+                        <li>the most <strong>efficient</strong> and <strong>latest techniques</strong> and <strong>processes</strong>; and</li>
+                        <li>expertise - <strong>reducing downtime</strong> and <strong>costs</strong>.</li>
+                    </ul>
+                <p class="dedication-paragraph-2">We are 100% dependable.</p>
+                <div class="item-m">
+                <img src="pipe.jpeg" class="pipe" alt="freshly painted pipe">
+                <h2 id="help-header">How Can We Help?</h2>
+                <a class="button-link" href="#contact-2"><button class="get-it">GET IN TOUCH</button></a>
+                </div>
+                <img src="redship2.jpeg" class="redship" alt="Red ship being painted.">
+                <div class="experiencetext">
+                <h2 class="experience">EXPERIENCE PAINTING ON ANY SURFACE</h2>
+                <p class="experience-paragraph-1">Our experts have worked on private residences, commercial buildings and marine vessels.</p>
+                </div>
+                <div class="experiencetext2">
+                    <h2 class="talented">TALENTED PROFESSIONALS WITH EXTENSIVE EXPERIENCE</h2>
+                    <p class="experience-paragraph-2">Our experts are esteemed painters with extensive knowledge, experience and expertise in the residential, commercial and industrial painting industries.</p>
+                    </div>
+                    <img src="spraypainter2.jpeg" class="spraypainter" alt="spraypainter">
+                </div>
+                <div class="item-n" id="contact">
+                    <h2 class="contact" id="contact-2">ARE YOU READY TO TELL US ABOUT YOUR PROJECT?</h2>
+                    <img src="2.png" class="phone-icon" alt="phone icon">
+                    <p class="phone-paragraph">Phone: 0210503894</p>
+                    <img src="1.png" class="email-icon" alt="email icon">
+                    <p class="email-paragraph">Email: devonportpainters@gmail.com</p>
+                </div>
+                <div class="footer">
+                    <p class="footer-start">© 2023 Devonport Painters. All Rights Reserved.</p>
+                    <p class="footer-end">Design by Lizzy Pita</p>
+                </div>
+                </div>
+            </div>
 <script>
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
