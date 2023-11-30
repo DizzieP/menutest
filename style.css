@@ -23,6 +23,8 @@ body {
       align-items: center;
       padding: 0;
       margin: 0;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
   }
   
   
@@ -728,7 +730,9 @@ div#contact.item-n {
         justify-items: center;
         align-items: center;
         padding: 0;
-      margin: 0;
+        margin: 0;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
     }
 
     span.menu {
