@@ -318,21 +318,21 @@ h2#projects.past-projects {
 }
 
 img.tank {
-    width: 33.33%;
+    width: 100%;
     height: 25rem;
     grid-row: 7 / 8;
     grid-column: 2 / 4;
 }
 
 img.mechanical-interior {
-    width: 33.33%;
+    width: 100%;
     height: 25rem;
     grid-row: 7 / 8;
     grid-column: 6 / 8;
 }
 
 img.shipside {
-    width: 33.33%;
+    width: 100%;
     height: 25rem;
     grid-row: 7 / 8;
     grid-column: 10 / 12;
