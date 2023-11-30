@@ -318,7 +318,7 @@ h2#projects.past-projects {
 }
 
 img.tank {
-   width: 20rem;
+   width: 15rem;
     height: 20rem;
     grid-row: 7 / 8;
     grid-column: 1 / 4;
@@ -326,7 +326,7 @@ img.tank {
 }
 
 img.mechanical-interior {
-    width: 20rem;
+    width: 15rem;
     height: 20rem;
     grid-row: 7 / 8;
     grid-column: 5 / 8;
@@ -334,7 +334,7 @@ img.mechanical-interior {
 }
 
 img.shipside {
-    width: 20rem;
+    width: 15rem;
     height: 20rem;
     grid-row: 7 / 8;
     grid-column: 9 / 13;
