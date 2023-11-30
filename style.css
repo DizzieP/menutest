@@ -318,24 +318,24 @@ h2#projects.past-projects {
 }
 
 img.tank {
-    width: 100%;
-    height: 25rem;
+    width: 30em;
+    height: 20rem;
     grid-row: 7 / 8;
-    grid-column: 2 / 4;
+    grid-column: 1 / 4;
 }
 
 img.mechanical-interior {
-    width: 100%;
-    height: 25rem;
+    width: 30em;
+    height: 20rem;
     grid-row: 7 / 8;
-    grid-column: 6 / 8;
+    grid-column: 5 / 8;
 }
 
 img.shipside {
-    width: 100%;
-    height: 25rem;
+    width: 30em;
+    height: 20rem;
     grid-row: 7 / 8;
-    grid-column: 10 / 12;
+    grid-column: 9 / 13;
 }
 
 img.carpark {
