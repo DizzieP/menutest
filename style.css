@@ -190,8 +190,7 @@ img.residential {
 
 img.commercial-photo {
     width: 300px;
-    height: 300px;
-    
+    height: 300px;  
 }
 
 img.commercial {
@@ -301,6 +300,8 @@ div.item-k {
     display: grid;
     grid-row: 6 / 9;
     grid-column: 1 / 13;
+    width: 100%;
+    height: auto;
 }
 
 h2#projects.past-projects {
@@ -312,24 +313,26 @@ h2#projects.past-projects {
     font-size: 3rem;
     padding-top: 2rem;
     margin-bottom: 3.5rem;
+    width: 100%;
+    height: auto;
 }
 
 img.tank {
-    width: 30rem;
+    width: 33.33%;
     height: 25rem;
     grid-row: 7 / 8;
     grid-column: 2 / 4;
 }
 
 img.mechanical-interior {
-    width: 30rem;
+    width: 33.33%;
     height: 25rem;
     grid-row: 7 / 8;
     grid-column: 6 / 8;
 }
 
 img.shipside {
-    width: 30rem;
+    width: 33.33%;
     height: 25rem;
     grid-row: 7 / 8;
     grid-column: 10 / 12;
@@ -471,7 +474,7 @@ h2#help-header {
     padding-top: 2rem;
 }
 
-button.get-it {
+a.help-button, button.get-it {
     grid-row: 14 / 15;
     grid-column: 11 / 13;
     font-size: 1rem;
