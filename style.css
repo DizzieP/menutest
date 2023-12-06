@@ -709,6 +709,7 @@ div#contact.item-n {
     transition: margin-left .5s;
     padding: 0px;
     margin-left: 200px;
+    
   }
   
   @media screen and (max-height: 450px) {
