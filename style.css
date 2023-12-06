@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    
 }
 
 html, body {
@@ -673,7 +674,7 @@ div#contact.item-n {
 
   .sidenav {
     height: 100%;
-    width: 200px;
+    width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -708,7 +709,6 @@ div#contact.item-n {
   #main {
     transition: margin-left .5s;
     padding: 0px;
-    margin-left: 200px;
     
   }
   
@@ -1247,7 +1247,7 @@ div.footer {
 
     .sidenav {
         height: 100%;
-        width: 125px;
+        width: 0;
         position: fixed;
         z-index: 1;
         top: 0;
@@ -1282,7 +1282,7 @@ div.footer {
       
       #main {
         transition: margin-left .5s;
-        margin-left: 125px;
+        padding: 0px;
       }
   }
 
@@ -1959,7 +1959,7 @@ div#contact.item-n {
 
   .sidenav {
     height: 100%;
-    width: 200px;
+    width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -1994,7 +1994,7 @@ div#contact.item-n {
   #main {
     transition: margin-left .5s;
     padding: 0px;
-    margin-left: 200px;
+    
   }
 
   }
