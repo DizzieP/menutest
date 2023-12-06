@@ -672,7 +672,7 @@ div#contact.item-n {
     }
     
 
-  .sidenav {
+  #mySidenav.sidenav {
     height: 100%;
     width: 0;
     position: fixed;
@@ -1245,7 +1245,7 @@ div.footer {
         padding-right: 1rem;
     }
 
-    .sidenav {
+    #mySideNav.sidenav {
         height: 100%;
         width: 0;
         position: fixed;
@@ -1957,7 +1957,7 @@ div#contact.item-n {
     }
     
 
-  .sidenav {
+  #mySideNav.sidenav {
     height: 100%;
     width: 0;
     position: fixed;
