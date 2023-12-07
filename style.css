@@ -1000,7 +1000,7 @@ div#contact.item-n {
     h2.dedication {
         font-size: 2rem;
         text-align: center;
-        margin-top: 0px;
+        margin-top: 1rem;
         margin-bottom: 1rem;
         grid-column: 1 / 4;
         grid-row: 16 / 17;
