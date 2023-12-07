@@ -874,24 +874,24 @@ div#contact.item-n {
 
     p.residential-paragraph {
         font-size: 1rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
         padding-top: 1rem;
         justify-self: center;
     }
     
     p.commercial-paragraph {
         font-size: 1rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
         padding-top: 1rem;
         justify-self: center;
     }
     
     p.industrial-paragraph {
         font-size: 1rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
         padding-top: 1rem;
         justify-self: center;
     }
@@ -918,28 +918,28 @@ div#contact.item-n {
         grid-column: 1 / 4;
         grid-row: 9 / 10;
         width: 100%;
-        height: 22rem;
+        height: 100%;
     }
     
     img.mechanical-interior {
         grid-column: 1 / 4;
         grid-row: 10 / 11;
         width: 100%;
-        height: 22rem;
+        height: 100%;
     }
     
     img.shipside {
         grid-column: 1 / 4;
         grid-row: 11 / 12;
         width: 100%;
-        height: 22rem;
+        height: 100%;
     }
     
     img.carpark {
         grid-column: 1 / 4;
         grid-row: 12 / 13;
         width: 100%;
-        height: 22rem;
+        height: 100%;
         margin-bottom: 3.5rem;
     }
     
@@ -1000,7 +1000,7 @@ div#contact.item-n {
     h2.dedication {
         font-size: 2rem;
         text-align: center;
-        margin-top: 1rem;
+        margin-top: 1.75rem;
         margin-bottom: 1rem;
         grid-column: 1 / 4;
         grid-row: 16 / 17;
